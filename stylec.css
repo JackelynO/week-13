@@ -1,0 +1,110 @@
+header {
+  padding: 35px;
+  font-size: xx-large;
+  background-color: rgb(142, 71, 153);
+  position: sticky;
+  top: 0px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+header nav a {
+  color: aliceblue;
+}
+body {
+  background-color: rgb(210, 225, 245);
+}
+img {
+  width: 100%;
+}
+p {
+  text-align: center;
+  font-size: larger;
+}
+.submitsec {
+  text-align: center;
+  font-size: larger;
+  color: rgb(77, 4, 64);
+}
+.detailp {
+  font-size: x-large;
+}
+.detailt {
+  width: 70%;
+  height: auto;
+}
+.firstname {
+  width: 70%;
+  height: auto;
+}
+.lastname {
+  width: 70%;
+  height: auto;
+}
+.email {
+  width: 70%;
+  height: auto;
+}
+
+button {
+  font-size: xx-large;
+  color: rgb(255, 231, 255);
+  background-color: rgb(127, 53, 114);
+  margin: 2rem;
+  border: none;
+  border-radius: 6px;
+  transition: transform 0.3s ease;
+  transition: box-shadow 0.3s ease;
+}
+Button:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+  background-color: rgb(45, 0, 88);
+  box-shadow: 0 0 10px rgb(156, 195, 255), 0 0 20px rgb(212, 0, 255),
+    0 0 30px rgb(150, 4, 166);
+}
+footer {
+  background-color: rgb(142, 71, 153);
+  color: aliceblue;
+  text-align: center;
+}
+@media (max-width: 515px) {
+  .spiritname {
+    display: none;
+  }
+  header {
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  p {
+    font-size: x-large;
+  }
+  .firstname {
+    width: 50%;
+  }
+  .lastname {
+    width: 50%;
+  }
+  .email {
+    width: 50%;
+  }
+  .detailt {
+    width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .firstname {
+    width: 40%;
+  }
+  .lastname {
+    width: 40%;
+  }
+  .email {
+    width: 40%;
+  }
+  .detailt {
+    width: 40%;
+  }
+}

@@ -1,0 +1,107 @@
+header {
+  padding: 35px;
+  font-size: xx-large;
+  background-color: rgb(142, 71, 153);
+  position: sticky;
+  top: 0px;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+header nav a {
+  color: aliceblue;
+}
+.spiritbanner {
+  width: 100%;
+}
+body {
+  background-color: rgb(210, 225, 245);
+  margin: auto;
+}
+p {
+  padding: 1rem;
+  font-size: xx-large;
+}
+.navigationboxes {
+  background-color: rgb(210, 225, 245);
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: large;
+}
+.box1 {
+  background-color: rgb(160, 165, 227);
+  padding: 50px;
+  flex: 1 1 20%;
+  cursor: pointer;
+}
+
+.box2 {
+  background-color: rgb(160, 165, 227);
+  padding: 50px;
+  flex: 1 1 20%;
+  cursor: pointer;
+}
+.box3 {
+  background-color: rgb(160, 165, 227);
+  padding: 50px;
+  flex: 1 1 20%;
+  cursor: pointer;
+}
+footer {
+  background-color: rgb(142, 71, 153);
+  text-align: center;
+  padding: 30px;
+  bottom: 0px;
+}
+@media (max-width: 400px) {
+  .spiritbanner {
+    display: none;
+  }
+  .spiritlogoone {
+    width: 350px;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .navigationboxes {
+    background-color: rgb(210, 225, 245);
+    padding: none;
+    gap: none;
+  }
+  header {
+    height: 50px;
+    width: auto;
+    padding: 2rem;
+    padding-bottom: 3rem;
+  }
+  .spiritname {
+    display: none;
+  }
+  header nav a {
+    margin: 1rem;
+  }
+  p {
+    font-size: x-large;
+  }
+}
+@media (min-width: 400x) {
+  .navigationboxes {
+    background-color: rgb(210, 225, 245);
+  }
+  .spiritlogoone {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .spiritlogoone {
+    display: none;
+  }
+  p {
+    font-size: x-large;
+    text-align: center;
+  }
+}
+@media (prefers-color-scheme: dark) {
+}
